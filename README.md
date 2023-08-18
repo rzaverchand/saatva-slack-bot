@@ -1,4 +1,4 @@
-# Saatva Product Chatbot
+# Saatva Product Slack Chatbot
 
 This Python application scrapes product descriptions from [www.saatva.com](https://www.saatva.com) and saves the product details in a CSV file. The CSV data is then utilized to create a vectorstore for a language model to enable interactions with users in a Slack environment.
 
