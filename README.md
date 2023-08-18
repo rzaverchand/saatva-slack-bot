@@ -62,7 +62,6 @@ This Python application scrapes product descriptions from [www.saatva.com](https
     - Which product has the highest price? And which has the lowest?
     - Which product has the highest rating? And which has the lowest?
     - Which product has the highest number of reviews? And which has the lowest?
-    - Which product has the widest price range (difference between maximum and minimum price)?
     - What is the average price of all of a certain product type?
     - What is the average rating across all products of a certain type?
     - What is the average number of reviews across all products of a certain type?
