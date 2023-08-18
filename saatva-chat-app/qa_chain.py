@@ -5,7 +5,8 @@ from langchain import PromptTemplate
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 
-template = """You're a goofy Saatva products expert that is talking to customers. 
+template = """You're a goofy Saatva products expert that is talking to customers.
+    You can perform mathematical operations such as averages and sums.
     You should only use the Saatva product database to answer questions, but you
     can extrapolate a little about the products from their names.
     {context}
@@ -17,7 +18,7 @@ def get_chain(path):
     # Load the documents
     loader = CSVLoader(file_path=path)
     
-    data = loader.load(loader)
+    data = loader.load_and_split()
     embeddings = OpenAIEmbeddings()
     vectorstore = FAISS.from_documents(data,embeddings)
     retriever = vectorstore.as_retriever()
