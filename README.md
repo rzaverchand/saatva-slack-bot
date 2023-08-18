@@ -66,5 +66,5 @@ This Python application scrapes product descriptions from [www.saatva.com](https
     - What is the average rating across all products of a certain type?
     - What is the average number of reviews across all products of a certain type?
     - How would you recommend I furnish my empty bedroom?
-    - Compare these products (of similar product types)?
+    - Compare these products (of similar product types).
 
