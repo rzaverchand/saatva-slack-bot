@@ -1,0 +1,9 @@
+langchain
+pandas
+openai
+chromadb
+tiktoken
+slack_bolt
+selenium
+webdriver_manager
+faiss-cpu
